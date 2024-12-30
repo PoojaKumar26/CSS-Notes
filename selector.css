@@ -10,7 +10,7 @@
 header{
     width: 100%;
     height: 60px;
-    background-color: rgba(134, 82, 182, 0.871);
+    background-color: rgba(96, 66, 124, 0.871);
 }
 nav{
     display: flex;
@@ -35,11 +35,32 @@ a{
     width: 10rem;
     height: 10rem;
     background-color: blueviolet;
-    margin: 10px;
+    margin:10px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .selection{
-    
+    width: 100%;
+    height: 80vh;
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:center; /*width angle*/
+    align-items: center; /*height angle*/
+    text-align: center;
+}
+.title{
+    font-weight: bolder;
+    color: white;  
+}
+.pra{
+   font-style: italic;
+}
+
+#footer{
+  text-align: center;
+  background-color:  rgba(96, 66, 124, 0.871);
+ height: 50px;
+ padding: 15px;
 }
