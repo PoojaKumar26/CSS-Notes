@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+div{
+    margin: 0 0 20px 0;
+    padding: 10px;
+    text-align: center;
+}
+.border-normal{
+     border: 1px solid black;
+}
+.border-rounded{
+    border: 1px solid salmon;
+    border-radius: 10px;
+    /* border-top-left-radius: 10px ; */
+}
+.border-bottom{
+     border-bottom: 1px solid saddlebrown;
+     /* border-top: 1px solid black; */
+}
+.border-singleside{
+    border-left: 9px solid rgb(33, 135, 135);
+    background-color:rgba(37, 135, 135, 0.575) ;
+}
+.border-dotted{
+    border: 5px dotted darkblue;
+}
+.border-double{
+    border: 4px double darkgoldenrod;
+}
+.border-dashed{
+    border: 2px dashed darkorchid;
+}
+.border-groove{
+     border: 4px groove gainsboro;
+}
+.border-ridge{
+    border: 3px ridge rgb(113, 102, 41)
+}
+.border-inset{
+    border: 2px inset green
+}
+.border-outset{
+    border: 2px outset red;
+}
+.border-none{
+    border: none;
+}
+.border-hidden{
+    border: 1px  hidden;
+}
+.border-mixed{
+    border-top: groove red;
+    border-left:inset yellow;
+    border-right: outset yellowgreen;
+    border-bottom:ridge rebeccapurple;
+}
