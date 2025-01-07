@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxmodel{
+    width: 450px;
+    height: 450px;
+    background-color: antiquewhite;
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.content{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    /* outline: dashed; => outline work with border */ 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
